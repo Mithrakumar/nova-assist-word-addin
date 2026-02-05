@@ -1,0 +1,18 @@
+{
+    "name": "word-ai-backend",
+    "version": "1.0.0",
+    "description": "Azure Functions backend for MS Word AI Add-in",
+    "scripts": {
+        "start": "func start",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@azure/functions": "^4.0.0",
+        "openai": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+        "azure-functions-core-tools": "^4.0.0"
+    }
+}
