@@ -63,7 +63,7 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message, onInsert }) =
                 {!isUser && (
                     <div style={{ width: "32px", height: "32px", flexShrink: 0 }}>
                         <img
-                            src={`data:image/png;base64,${NOVA_ASSIST_LOGO_BASE64}`}
+                            src={NOVA_ASSIST_LOGO_BASE64}
                             alt="NovaAssist"
                             style={{ width: "100%", height: "100%", objectFit: "contain" }}
                         />

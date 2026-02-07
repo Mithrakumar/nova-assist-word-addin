@@ -1,0 +1,165 @@
+FNSB TRAVEL POLICY - DEMO DOCUMENT
+===================================
+
+Use this document to test the NovaAssist Word Add-in features.
+
+SAMPLE PARAGRAPH FOR REDLINING:
+--------------------------------
+
+"The traveler must book economy class tickets for all domestic flights. 
+Business class is only allowed for international flights over 8 hours. 
+The traveler should submit expense reports within 30 days of return."
+
+
+DEMO SCENARIOS:
+--------------
+
+1. SURGICAL REDLINING TEST:
+   - Select the paragraph above
+   - Ask: "Change 'traveler' to 'traveller'"
+   - Expected: Only the word "traveler" should be redlined, not the entire paragraph
+
+2. POLICY COMPLIANCE TEST:
+   - Select the paragraph above
+   - Click "Find Source" to load the FNSB Travel Policy
+   - Ask: "Redline this to match the FNSB Travel Policy"
+   - Expected: Should change "8 hours" to "6 hours" and "30 days" to "15 days"
+
+3. LOGO INSERTION TEST:
+   - Place cursor where you want the logo
+   - Click "Add Logo"
+   - Expected: LivaNova logo should be inserted
+
+
+FULL FNSB TRAVEL POLICY (for "Find Source" feature):
+----------------------------------------------------
+
+TRAVEL POLICY
+I. GENERAL
+The purpose of the Travel Policy is to ensure that employees are properly compensated and covered while engaged in official Borough business away from their normal business site, outside of the Fairbanks North Star Borough. The Borough follows the requirements to maintain an IRS qualified plan, which reduces taxability for the traveler.
+II. PURPOSE
+This policy outlines the steps necessary for approving and processing of travel and training.
+III. RESPONSIBILITY
+A. Department directors shall ensure that their department staff follows the procedure set forth in this policy.
+B. Compliance with this policy is the responsibility of all Borough employees.
+C. Human Resources shall maintain this policy.
+IV. POLICY
+It is the policy of the FNSB Administration to authorize employees to travel on official FNSB business or for training purposes utilizing the most cost effective means available, given all considerations. Personal travel may be combined with a business trip. Travel must be approved in advance by the appropriate authority and processed in accordance with the travel procedures. Should special circumstances not allow pre-approval, the same process shall be followed upon return. A Travel Authorization (TA) must be completed for any travel outside of the Fairbanks North Star Borough. Appropriate authority must include a recommendation from the department director and approval by the Mayor or Chief of Staff, except for Assembly or Borough Clerk’s office travel, short notice travel required by the Borough Attorney’s office, or other emergency travel as authorized by the Borough Mayor. Should the IRS or grant regulations require additional information than is expressed in this policy, the Borough and travelling employee is required to comply.
+V. PROCEDURE
+A. Extraordinary circumstances requiring variations from these travel procedures may be approved by the Mayor and/or his/her designee and should be justified in writing.
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 2 of 9
+B. Generally, travel shall be arranged utilizing the most cost effective means given the particular travel circumstances. Employee functionality and productivity, not just fiscal cost, shall be considered when making travel arrangements. Directors are encouraged to review all costs (including applicable wages) associated with the travel when determining the most cost effective means of travel.
+C. This policy allows employees to add personal travel to a business itinerary, in accordance with the procedures set forth below:
+1. When combining personal travel with a business trip that includes airfare, the travel arranger must provide the Borough with two itineraries: one showing travel costs without the personal travel, and the other showing travel costs including the personal travel. Both itineraries must be prepared at the same time (same day). The Borough will reimburse the least expensive travel costs. E.g. the business airfare travel is $550. With the personal travel added, the airfare increases to $700. The employee will pay the additional $150. Conversely, if the personal travel addition reduced the total airfare travel to $500, the Borough would reimburse $500.
+2. When vacation time is added to a business trip, clear documentation must be provided to fairly allocate personal and business expenses.
+D. Compensation:
+1. Same Day Travel: For travel that is expected to be completed in the same day, all time spent in travel mode is counted as hours worked and is therefore compensable time to be counted for purposes of computing overtime pay for non-exempt employees.
+2. Overnight Travel: For travel that includes an overnight stay, all time spent in travel mode, up to the employee’s regular scheduled working hours for the day of travel, is counted as hours worked regardless of when the travel occurred. E.g. An employee who is scheduled to work from 8AM-5PM and instead travels from 1AM through 11AM would be compensated for eight (8) straight time hours. However, only travel time occurring within the employee’s regularly scheduled hours on his/her regularly scheduled workday is considered eligible for overtime pay if applicable. E.g. A nonexempt employee regularly scheduled to work Monday-Friday who has already worked 40 hours that week (Monday-Thursday) and is travelling on Friday from 1AM to 11AM, will be paid five (5) hours at the straight rate of pay and three (3) hours at the overtime rate.
+a) If the travel occurs on the employee’s normally scheduled day off, compensation is provided for all time spent in travel mode, up to their scheduled work time. E.g. An eight (8) hour per day employee (based upon FTE), who travels ten (10) hours on their day off will be paid for eight (8) hours, at the straight rate of pay. A 4 (four) hour employee (based upon FTE), who travels 10 hours on
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 3 of 9
+their day off will be paid for 4 (four) hours, at the straight rate of pay.
+b) An employee who travels and works (or attends courses/meetings, etc.) in the same day shall receive pay for their regular scheduled hours only, at the straight rate of pay. E.g. An eight (8) hour per day employee (based upon FTE),who travels for six (6) hours and attends a class/meeting or other work event for 4 hours in the same day shall be compensated for eight (8) hours at the straight rate of pay. The compensation is adjusted to the FTE as described in earlier examples.
+3. Return from travel and reporting to duty: Upon returning from a trip that included an overnight travel stay, the employee will not be required to report for duty the following day until eight (8) hours has lapsed between the flight arrival time and the start of their next shift. Duty hours missed under this allowance is considered compensable time. For example: If an 8AM-5PM schedule employee’s flight arrives at 1AM, the employee could report to work at 9AM rather than their normal scheduled start time and the one (1) hour time period would be compensable.
+4. When an employee’s out of state training/education course ends prior to their regular scheduled work day the employee shall be paid for the entire day unless the employee is delaying return (extending their travel), in which case they are required to take leave or accrued compensatory time for the remainder of the regular scheduled workday.
+E. Employee work schedule changes to accommodate the travel/conference schedule may also be adjusted when appropriate.
+F. The department is responsible for making all travel arrangements including determining the most cost effective travel options. In cases where the travel is being funded by another department, the department funding the travel generally completes the arrangements, unless otherwise coordinated. The department completes all sections as indicated on the TA form (Attachment 1).
+1. A document must be attached to the TA stating the purpose of the trip and identifying any personal travel that is included. Such documentation could include seminar, conference, or meeting brochures or a memo/letter. If attending a conference or seminar, an agenda is required.
+2. Departure/Return Dates and Times – State the departure (from Fairbanks) and return (to Fairbanks) dates and time. Include reasonable pre-flight check-in times based upon current airline requirements and one (1) hour post flight for wage calculations. Should the employee travel to a destination that cannot be reached within one (1) hour post-flight, additional post-flight time (for wage calculation) needed must be justified and will be reviewed and approved on a case-by-case basis.
+3. Per Diem – Per diem is calculated and paid to employees for time in travel status on authorized Borough business. Annual leave days or regularly scheduled days off must be designated so they can be excluded from the per
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 4 of 9
+diem calculation. The per diem is calculated on the basis of one-third (1/3) day increments (which corresponds with normal eating patterns). In order to claim an increment, an employee must have been on authorized FNSB business for at least thirty (30) minutes into the increment. Increments are 12:00AM-8:00AM/8:00AM-4:00PM/4:00PM-12:00AM. With appropriate approval, and if determined as reasonable by the Department Director, actual receipts may be submitted for reimbursement in lieu of per diem. The per diem rate is the negotiated rate as defined in the current CBA and Borough code. Per diem paid to the employee will be reduced for meals that are provided and expected to be consumed by the employee at limits as established by the IRS. Any necessary adjustments will occur on the expense report. The excess per diem paid over the federal approved per diem rate for the destination is taxable income to the employee and will be reported on the employee’s W-2. Employees must retain receipts to claim any employee expense deduction on IRS Form 2106.
+4. Employee Statement – The employee, by signing the TA, acknowledges their understanding of, and compliance with this policy, FNSB Code 2.32.230(D) and FNSB Code 2.32.240(E), allowing for deductions from the employee’s pay should they not provide adequate documentation to finalize the TA within ten (10) working days of return, and payback of associated training costs should the employee resign their position with the Borough prior to completing one (1) year of service after the completion of the training, unless the payback provision has been waived by the Mayor or Chief of Staff. Any changes to the TA after the employee signs, must be initialed off by the employee.
+5. Transportation – Tickets for transportation on a commercial carrier may be purchased from a travel agency and billed directly to the Borough. Indicate the travel agency name as the vendor. The invoice from the travel agency must be sent directly to Accounts Payable. If the employee plans to use a companion fare for travel, the employee must be listed as the primary traveler.
+a. Employee pre-payment: If the employee chooses, with the approval of their Department Director, to pay for an airline ticket charge himself/herself, reimbursement can occur prior to travel if appropriate request is made on the TA and adequate documentation is submitted for processing and included as part of a normal check processing cycle. Documentation may include copies of credit card statements showing the charge and a credit card (with last four numbers of card un-redacted.) Department Directors will ensure a system is utilized to track and account for all pre-paid airline tickets. Any corresponding personal travel taken in conjunction with an authorized trip that results in additional cost to the Borough will be paid for by the employee.
+b. If the employee is authorized to travel by private vehicle, and is an authorized driver under the Motor Vehicle Driving Policy, the employee shall be reimbursed mileage at the established rates as determined by the CBA and Borough Code rate not to exceed the cost of the most economical fare possible via public and/or commercial carrier except that any private vehicles used for travel between Fairbanks and Anchorage will be reimbursed at a flat amount of $250/trip rather than the per mile
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 5 of 9
+reimbursement. Mileage reimbursement will also be made for all documented business travel incurred at the destination. This means that odometer readings must be included. Employees must document mileage on the TA vehicle Expense Report (Attachment 3) which must include the TA number. An advance of the $250 flat rate amount is available upon request and will be processed with the per-diem advance shortly before the commencement of travel as noted in Section D of this policy.
+6. Registration – Indicate the vendor name. Attach the original registration form and a copy. Accounts Payable will mail the original registration form with the registration check. If the check and registration form needs to be carried by the employee to the conference, please request permission to have the check released to the employee.
+7. Hotel – Hotel expenses are paid at no more than single occupancy rate unless otherwise authorized. Any difference will be the employee’s expense. Please allow for taxes and other associated costs when computing hotel rates. Hotel rooms can be held either with a personal card or with the Borough credit card that is maintained by the General Services Manager.
+8. Vehicle Rental/Taxi – Expenses such as taxi, economy limousine service, and parking will be reimbursed when directly related to FNSB business. Vehicle rental will be reimbursed only if approved by the proper authority on the TA in advance. Prior to renting a vehicle, an employee must be an authorized driver under the Motor Vehicle Driving Policy. Employees renting vehicles for Borough business should purchase liability coverage, and decline the collision damage coverage. The Borough will reimburse employees for this coverage. Any individual that is authorized to rent a vehicle is subject to the terms of the Motor Vehicle Driving Policy. The Borough will pay employee’s taxi fare or appropriate mileage reimbursement to and from the airport in Fairbanks or up to the cost for taxi fares for parking at the airport and taxi fares to and from the hotel, conference, or other business destination as approved by the Director. The Borough does not pay taxi fares for personal business.
+9. Calls/Internet – All business related phone calls and reasonable internet charges will be reimbursed if a receipt with charges is provided. General Services has cell phones and MiFi devices for check-out, to use in place of hotel’s costly wireless internet service and long distance charges provided by hotels, etc.
+G. Advances – It is the department’s responsibility to make sure Accounts Payable receives the TA by the weekly cutoff (5:00 p.m. Tuesday) to ensure that a check is cut in time to meet deadlines. If Accounts Payable receives the TA by 5:00 p.m. on the prior Tuesday, the employee may pick up the advance from Finance after 3:00 p.m. on the Friday preceding travel.
+H. Amended TA – If the cost of the trip exceeds the estimated costs by $200 on any one line, if a vendor is changed, or if all lines encumbered to an employee are advanced and the employee returns needing reimbursement exceeding $200, an amended TA must be processed. Include the variance amount and total cost of the trip in the Amended TA Detail column.
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 6 of 9
+I. Expense Report – Within ten (10) working days of return or upon cancellation of a trip, the employee must complete and submit to Accounts Payable the Employee Expense Report (Attachment 3).
+1. The following original receipts validating travel are required:
+a) Airline itinerary with receipt and boarding pass(es), unless utilizing electronic boarding passes. In the case where travel is being paid for by grant funds, a boarding pass (or screen shot of an electronic boarding pass) is required. Employees must confirm or provide any changes to flight times to ensure the proper per diem calculation.
+b) Registration receipt (if paid by employee).
+c) Hotel bill.
+d) Taxi or limo receipts, car rental agreements, parking receipts.
+e) Other receipts as necessary to document other costs. If other costs are included on your hotel bill, designate which ones are FNSB business expenses and initial as such. Documentation may include copies of credit card statements showing the charge and a redacted credit card (with last four digits showing).
+f) Actual receipts submitted in lieu of per diem.
+2. Upon submission of all required documentation to Finance, the employee shall normally be paid in the following check run, generally not to exceed ten (10) days after submission.
+3. For microfilming purposes, small receipts should be taped, not stapled, to an 8 ½” x 11” sheet of paper.
+4. Confirm whether the meals initially deducted were consumed. If meals were deducted and not consumed, or meals were consumed without previous deduction, an adjustment is necessary on the expense report in order to properly reimburse the employee for per diem and to ensure compliance with IRS requirements.
+5. Employees receiving an advance in excess of the actual cost are responsible for repayment of any excess amount. A copy of the receipt issued by the Collections Office must be attached to the Employee Expense Report and forwarded to Accounts Payable.
+6. The employee will receive advance notice if he/she fails to submit required documentation prior to any deductions being withheld from the employee’s next available paycheck.
+J. Travel costs paid by a third party– A TA is required for travel outside the Fairbanks North Star Borough, even when a third party is paying for the associated travel costs. In such a circumstance, the TA should identify travel costs paid for by a third party as a zero cost to the Borough.
+K. Reimbursement from Outside Source – If partial reimbursement for an employee’s travel is expected from an outside source, it is the Department’s
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 7 of 9
+responsibility to collect the reimbursement. When the reimbursement is received, it should be deposited through the Collections Office. The account credited should be the account on the original TA. If the reimbursement is received in the current year for a prior year TA, the account credited is the “miscellaneous revenue” object code for the appropriate fund.
+VI. SUPPLEMENTAL INFORMATION
+A. References –
+1. FNSBEA/APEA Collective Bargaining Agreement (current)
+2. Laborers Local 942 Collective Bargaining Agreement (current)
+3. Alaska State Employees Association Collective Bargaining Agreement (current)
+4. FNSB 2.32.230 Travel & Host Reimbursement
+5. FNSB 2.32.240 Training
+6. Internal Revenue Code/United States Code 26 USC 62 Adjusted Gross Income Defined [current Code is 2013 http://www.gpo.gov/fdsys/pkg/USCODE-2013-title26/pdf/USCODE-2013-title26-subtitleA-chap1-subchapB-partI-sec62.pdf]
+7. Internal Revenue Code/United States Code 26 USC 162 Trade or Business Expenses [current Code is 2013 http://www.gpo.gov/fdsys/pkg/USCODE-2013-title26/pdf/USCODE-2013-title26-subtitleA-chap1-subchapB-partVI-sec162.pdf]
+8. Code of Federal Regulations 26 CFR 1.62-2 Reimbursements and Other Expense Allowance Arrangements [http://www.ecfr.gov/cgi-bin/text-idx?SID=d8467d32aa649f42ea2db4ba077ecd38&mc=true&node=se26.2.1_162_62&rgn=div8]
+9. Code of Federal Regulations 26 CFR 1.162-2 Traveling Expenses [http://www.ecfr.gov/cgi-bin/text-idx?SID=d8467d32aa649f42ea2db4ba077ecd38&mc=true&node=se26.3.1_1162_62&rgn=div8]
+10. Code of Federal Regulations 26 CFR 1.162-17 Reporting and Substantiation of Certain Business Expenses of Employees [http://www.ecfr.gov/cgi-bin/text-idx?SID=d8467d32aa649f42ea2db4ba077ecd38&mc=true&node=se26.3.1_1162_617&rgn=div8]
+11. IRS Publication 5137 IRS’s Fringe Benefit Guide from the Office of Federal, State and Local Governments http://www.irs.gov/pub/
+12. IRS Publication 463 Travel, Entertainment, Gift, and Car Expenses http://www.irs.gov/pub/
+B. Definitions –
+1. Accounts Payable – A function of the Accounting Division of the Financial Service Department.
+2. Bargaining Unit Employees – A person occupying a position covered by a collective bargaining agreement.
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 8 of 9
+3. CBA – Collective Bargaining Agreement(s)
+4. Collections – A function of the Treasury/Budget Division of the Financial Services Department.
+5. Employee – For the purposes of this policy, an employee is defined as a person who receives compensation through the FNSB payroll system or a volunteer who is authorized by the appropriate department director to travel on Borough business.
+6. Mileage – Use of personal vehicle for FNSB business within or outside the boundaries of the Borough. Mileage is reported for reimbursement with timesheets.
+7. Mileage Reimbursement – This per mile reimbursement covers costs for fuel, insurance, mechanical repairs, and any other out-of-pocket expenses associated with travel by private vehicle.
+8. Per Diem – The per diem allowance (also commonly referred to as subsistence allowance) is a daily payment instead of reimbursement for actual expenses for meals and related incidental expenses. The per diem allowance is separate from transportation, lodging and other miscellaneous expenses. The per diem allowance covers all charges, including any service charges where applicable for incidental expenses which include the following:
+a) Fees and tips given to porters, baggage carriers, bellhops, hotel maids, stewards or stewardesses and others on ships, and hotel servants in foreign countries.
+b) Transportation between places of lodging or business and places where meals are taken, if suitable meals can be obtained at the TDY [temporary duty] site; and
+c) Mailing cost associated with filing travel vouchers and payment of Government-sponsored charge card billings.
+Per diem does not include expenses for laundry, cleaning and pressing of clothing, lodging taxes, or the cost of telegrams or telephone calls.
+9. Training – Attending courses and seminars, workshops, etc., to obtain, learn, and enhance job-related skills.
+10. Travel – To go to and return from a prescribed destination outside the Borough on FNSB business.
+a) Travel Status – Travel status is used for the calculation of per diem and to determine workers’ compensation eligibility. The time beginning when an employee leaves their home or normal business worksite for business-related travel purposes and ending upon their return home or normal business worksite after completion of travel. Travel status may be interrupted by personal leave usage or regularly scheduled days off during the travel status period.
+b) Travel Mode – Travel mode is the actual period of time spent in travel, whether by air, water or land and is compensable time, per section V. D. of this policy. E.g. For air travel, travel mode would encompass pre-flight, flight and post-flight time periods.
+FNSB NO. 35.01
+DATE: 10/08/18
+Page 9 of 9
+11. Travel Authorization form (TA) – A designated form formalizing the authority to travel.
+C. Attachments -
+1. Travel Authorization Form
+2. TA Vehicle Expense Report
+3. Employee Expense Report Form
+D. Revision History
+Supersedes Policy No. Effective Dates
+25.03 06/28/88
+25.03.01 10/14/91
+35.01 12/17/02
+35.01 08/28/06
+35.01 12/14/06
+35.01 07/17/09
+35.01 05/09/14
+35.01 04/08/16
+35.01 08/01/16

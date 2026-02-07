@@ -1,5 +1,14 @@
 /* global Word, Office */
 
+// Helper function to enable Track Changes
+export async function enableTrackChanges(): Promise<void> {
+    await Word.run(async (context) => {
+        context.document.changeTrackingMode = Word.ChangeTrackingMode.trackAll;
+        await context.sync();
+        console.log("Track Changes enabled");
+    });
+}
+
 export async function getSelectedText(): Promise<string> {
     return new Promise((resolve, reject) => {
         Office.context.document.getSelectedDataAsync(Office.CoercionType.Text, (result) => {
@@ -112,9 +121,12 @@ export async function insertAsTrackedChange(text: string, comment?: string) {
 
 // Exporting Image Handler
 export async function insertImage(base64: string) {
+    // Strip data URI prefix if present (Office.js expects raw base64)
+    const cleanBase64 = base64.replace(/^data:image\/\w+;base64,/, "");
+
     return new Promise<void>((resolve, reject) => {
         Office.context.document.setSelectedDataAsync(
-            base64,
+            cleanBase64,
             { coercionType: Office.CoercionType.Image },
             (asyncResult) => {
                 if (asyncResult.status === Office.AsyncResultStatus.Failed) {

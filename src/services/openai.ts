@@ -135,5 +135,70 @@ export const openaiService = {
             console.error("Error generating redlines:", error);
             throw error;
         }
+    },
+
+    analyzeCompliance: async (documentText: string, searchContext: { policies: string[], regulations: string[] }): Promise<{ status: string, issues: any[], summary: string }> => {
+        try {
+            const systemPrompt = `You are a Regulatory Compliance Expert for Medical Devices (FDA/ISO).
+            Analyze the provided document text against the supplied Policy and Regulatory context.
+            
+            Inputs:
+            1. Document Text: The content to analyze.
+            2. Policies: Internal company guidelines.
+            3. Regulations: External FDA/MAUDE/ISO data.
+
+            Output:
+            Return ONLY a valid JSON object with:
+            {
+                "status": "COMPLIANT" | "NON_COMPLIANT" | "NEEDS_REVIEW",
+                "summary": "High-level executive summary of findings.",
+                "issues": [
+                    {
+                        "type": "POLICY_VIOLATION" | "REGULATORY_RISK" | "MISSING_CITATION",
+                        "severity": "HIGH" | "MEDIUM" | "LOW",
+                        "text": "The exact text segment causing the issue",
+                        "description": "Explanation of why this is non-compliant",
+                        "remediation": "Suggestion to fix it",
+                        "citation": "Reference to specific Policy or Regulation (e.g., 'FNSB Policy Sec 4.1' or 'FDA K203456')"
+                    }
+                ]
+            }`;
+
+            const userContent = `DOCUMENT TEXT:\n${documentText.substring(0, 5000)}...\n\n` +
+                `INTERNAL POLICIES:\n${searchContext.policies.join('\n\n')}\n\n` +
+                `REGULATORY CONTEXT:\n${searchContext.regulations.join('\n\n')}`;
+
+            const messages = [
+                { role: 'system', content: systemPrompt },
+                { role: 'user', content: userContent }
+            ];
+
+            const response = await fetch(BACKEND_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ messages })
+            });
+
+            if (!response.ok) throw new Error(`Backend error: ${response.statusText}`);
+
+            const data = await response.json();
+            const content = data.response?.trim();
+
+            // Robust JSON parsing
+            const firstOpen = content.indexOf('{');
+            const lastClose = content.lastIndexOf('}');
+            if (firstOpen !== -1 && lastClose !== -1) {
+                return JSON.parse(content.substring(firstOpen, lastClose + 1));
+            } else {
+                return {
+                    status: "NEEDS_REVIEW",
+                    summary: "AI response format error. Please review manually.",
+                    issues: []
+                };
+            }
+        } catch (error: any) {
+            console.error("Error analyzing compliance:", error);
+            throw error;
+        }
     }
 };
